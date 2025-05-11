@@ -1,0 +1,51 @@
+{
+  "name": "@soufgit/mcp-hosts-installer",
+  "version": "0.1.2",
+  "author": "Souf",
+  "bin": {
+    "mcp-hosts-installer": "./lib/index.mjs"
+  },
+  "type": "module",
+  "description": "A MCP server to install other MCP servers in Cursor, VSCode, Claude...",
+  "main": "lib/index.mjs",
+  "scripts": {
+    "prepare": "tsc && shx chmod +x ./lib/index.mjs",
+    "ts-lint": "tsc --noEmit"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.11.1",
+    "spawn-rx": "^5.1.2",
+    "zod": "^3.24.4"
+  },
+  "devDependencies": {
+    "shx": "^0.4.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  },
+  "keywords": [
+    "cursor",
+    "vscode",
+    "claude",
+    "mcp",
+    "installer",
+    "ModelContextProtocol"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soufgit/mcp-hosts-installer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/soufgit/mcp-hosts-installer/issues"
+  },
+  "homepage": "https://github.com/soufgit/mcp-hosts-installer#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "lib/**/*"
+  ]
+}
