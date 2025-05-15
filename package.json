@@ -1,5 +1,5 @@
 {
-  "name": "@soufgit/mcp-hosts-installer",
+  "name": "mcp-hosts-installer",
   "version": "0.1.2",
   "author": "Souf",
   "bin": {

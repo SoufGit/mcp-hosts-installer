@@ -32,7 +32,7 @@ Put this into your `claude_desktop_config.json` (either at `~/Library/Applicatio
     "mcp-hosts-installer": {
       "command": "npx",
       "args": ["-y",
-        "@soufgit/mcp-hosts-installer"
+        "mcp-hosts-installer"
       ]
     }
   }
@@ -47,7 +47,7 @@ Put this into your `mcp.json` (either at `/Users/NAME/.cursor` on macOS or `C:\U
     "mcp-hosts-installer": {
       "command": "npx",
       "args": ["-y",
-        "@soufgit/mcp-hosts-installer"
+        "mcp-hosts-installer"
       ]
     }
   }
@@ -62,7 +62,7 @@ Put this into your `mcp.json` (either at `/Users/NAME/.code` on macOS or `C:\Use
     "mcp-hosts-installer": {
       "command": "npx",
       "args": ["-y",
-        "@soufgit/mcp-hosts-installer"
+        "mcp-hosts-installer"
       ]
     }
   }
